@@ -1,0 +1,376 @@
+cv:
+  name: Mahmoud Ismail
+  location: Cairo, Egypt
+  email: mahmoud.ismail.dev@gmail.com
+  phone: "+201554759293"
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: linkedin.com/in/ma7moud-mostafa
+    - network: GitHub
+      username: github.com/m7moud-mostafa
+  sections:
+    Summary:
+      - I am an aspiring engineering undergrad with hands-on experience in ROS, navigation, SLAM, and control. I have successfully led the development of autonomous vehicle
+        systems from simulation to hardware integration. I am continuously seeking challenging opportunities within the autonomous robotics field where I can further
+        enhance my skills and contribute to innovative projects
+    education:
+      - institution: Cairo University
+        area: Mechanical Design and Production Engineering
+        degree: Bachelor
+        date:
+        start_date: 2020
+        end_date: 2025
+        location: Giza, Egypt
+        summary:
+        highlights:
+
+    experience:
+      - company: Shell Eco Racing Team (CUERT)
+        position: Director of Autonomous Teams
+        date:
+        start_date: 2025-01
+        end_date: 2025-07
+        location: Cairo University, Egypt
+        summary: A student-led racing team focused on the development of eco friendly racing vehicles.
+        highlights:
+          - Led 35 engineering students across Development and Embedded teams, fostering teamwork and clear communication.
+          - Migrated CARLA system to a Docker-based setup, resolving Ubuntu dependencies issues and enabled seamless team transitions.
+          - Developed Bash/Python tools to automate integration and simplify development workflows.
+          - Drove completion of 3+ development projects managing testing and documentation, built ROS perception base for AI model deployment.
+          - Conducted energy consumption calculations for vehicle model supporting energy-efficient velocity profiling project.
+          - Repaired corrupted Jetson Xavier device, restoring hardware and software functionality to enable autonomous system deployment.
+          - Developed CAN communication system between the Xavier and STM32 microcontroller for autonomous vehicle control.
+          - Initiated vehicle modeling project overseeing MATLAB/SolidWorks models with URDF conversion for ROS integration.
+          - Achieved 3rd place globally in the Shell Eco-marathon Autonomous Programming Competition 2025.
+      - company: ""
+        position: Leader of Autonomous Development Team
+        date:
+        start_date: 2024-07
+        end_date: 2025-01
+        location: 
+        summary:
+        highlights:
+          - Hired and led 23 engineers across multiple disciplines for a Level 3+ autonomous car competition.
+          - Mentored with sprint-based learning roadmaps and reviews, cutting onboarding time 80% versus prior season.
+          - "Initiated three cross-functional projects: system optimization, energy-cost velocity profiling, and embedded team integration."
+          - Shifted from waterfall to agile methodology, accomplishing more with fewer resources across multiple projects.
+      - company: ""
+        position: Member of Autonomous Development Control Team
+        date:
+        start_date: 2022-09
+        end_date: 2024-07
+        location: 
+        summary:
+        highlights:
+          - Established the software base structure to allow building and assessing control algorithms using ROS 1 packages.
+          - Implemented a PID controller for longitudinal movements and the Stanley algorithm for lateral movements, boosting energy efficiency by 300%.
+          - Utilized the engine performance map to automate the calculation of driving parameters for efficient driving cycles.
+
+      - company: SLB Company (Schlumberger)
+        position: Production Systems Intern
+        date:
+        start_date: 2024-07
+        end_date: 2024-08
+        location: 6th of October, Egypt
+        summary: Leading global provider of technology for reservoir characterization, drilling, production, and processing
+        highlights:
+          - Coordinated with cross cultural teams to learn about casing strings and hydraulic liner hangers, ensuring wellbore integrity.
+          - Developed knowledge of TRSCSSVs, Bridge plugs and production packers for well completion.
+          - Conducted phase-to-phase and DC tests on ESP induction motors and centrifugal pumps, presenting results to senior engineers.
+          - Supported subsea casing head, spool & Christmas tree assembly to optimize hydrocarbon flow.
+
+      - company: Egyptian Atomic Energy Authority
+        position: Mechanical Engineering Intern
+        date:
+        start_date: 2023-04
+        end_date: 2023-05
+        location: Nasr City, Egypt
+        summary: National authority responsible for the development of nuclear energy applications
+        highlights:
+          - Studied four nuclear reactor types, their core components, design consideration, cooling loops and heat-transfer systems.
+          - Collaborated in hands-on training and expert discussions to refine technical communication.
+          - Presented the four nuclear reactor types, highlighting operational principles, benefits and trade-offs.
+
+    projects:
+      - name: Autonomous Tow Tractor - Graduation Project
+        date:
+        start_date: 2024-11
+        end_date: 2025-07
+        location:
+        summary: '*[https://github.com/GP-Autonomous-Tow-Tractor/tow_tractor_ws](https://github.com/GP-Autonomous-Tow-Tractor/tow_tractor_ws)*
+                  \n\n*A graduation project focused on designing an autonomous tow tractor*'
+        highlights:
+          - Designed ROS2-based autonomous tow tractor system, integrating simulation (Gazebo), real-time hardware control, and navigation.
+          - Developed custom URDF/Xacro robot models implementing rear-wheel steering and differential drive control algorithms.
+          - Built a ROS2 package for sensor data intake and actuator commands using my hardware Python library's serial drivers.
+          - Integrated navigation/mapping with Nav2 & SLAM Toolbox for autonomous operation.
+          - Integrated MPU6050 IMU, RaspberryPi camera, wheel encoders, and LiDAR with a Kalman filter for accurate odometry data.
+
+      - name: Autonomous Vehicle Traffic-Aware Control System - Shell Eco Racing Team
+        date: 2025-05
+        start_date:
+        end_date:
+        location:
+        summary: '*[https://www.youtube.com/watch?v=0uErVfB_nWY](https://www.youtube.com/watch?v=0uErVfB_nWY)*
+                  \n\n*A project focusing on traffic-aware control systems for autonomous vehicles*'
+        highlights:
+          - Designed advanced traffic handling logic for an autonomous vehicle in ROS, integrating real-time path planning and collision avoidance.
+          - Enhanced control module with traffic-aware longitudinal and lateral controllers for dynamic autonomous response.
+
+      - name: Hardware Python Library - Graduation Project, Shell Eco Racing Team
+        date: 2025-04
+        start_date:
+        end_date:
+        location:
+        summary: '*[https://github.com/m7moud-mostafa/hardware](https://github.com/m7moud-mostafa/hardware)*'
+        highlights:
+          - Designed an OOP Python library with Serial, SPI & CAN drivers using inheritance and mixins for modular, reusable code.
+          - Developed robust low-level drivers (buffer management, message framing, error handling) and high-level abstractions for sensors (IMU, encoders) and for sending actuators commands.
+          - Designed extensible, testable interfaces for adding new hardware drivers, with centralized logging, connection management, and automated message handling for reliable robotics integration.
+
+      - name: Bash Shell Interpreter - ALX
+        date: 2024-03
+        start_date:
+        end_date:
+        location:
+        summary: '*[https://github.com/m7moud-mostafa/simple_shell](https://github.com/m7moud-mostafa/simple_shell)*'
+        highlights:
+          - Developed a practical UNIX command line interpreter using C programming to mimic basic shell functions.
+          - Integrated system calls for managing processes, configuring environmental variables , executing programs in a shell setting.
+          - Implemented essential built-in functions, achieved argument parsing, and allowed the execution of PATH commands in Interactive or Non-interactive mode, which achieved 120% score for this project.
+
+      - name: Autonomous Vehicle Control ROS Package - Shell Eco Racing Team
+        date: 2024-02
+        start_date:
+        end_date:
+        location:
+        summary:
+        highlights:
+          - Developed a PID controller and Stanley algorithm within the ROS Control package, optimizing the energy efficiency for autonomous driving.
+          - Utilized Linux, Python, and the CARLA Simulator to develop and test the control system.
+          - Optimized the energy efficiency of the control system, which increased the efficiency 3 times the previous system.
+
+      - name: Energy Performance Evaluation ROS Package - Shell Eco Racing Team
+        date: 2024-01
+        start_date:
+        end_date:
+        location:
+        summary:
+        highlights:
+          - Developed a comprehensive ROS package to assess energy efficiency and distance metrics of autonomous vehicles, utilizing Python and interfacing with the CARLA simulator.
+          - Proposed data collection for further Matlab analysis, real-time monitoring, and visualization for the car performance.
+
+      - name: Energy Performance Evaluation ROS Package - Shell Eco Racing Team
+        date: 2023-04
+        start_date:
+        end_date:
+        location:
+        summary: '*[https://drive.google.com/drive/folders/1-v-dgZtKch2yg0wYo3KupjW7MLcKM4Bl](https://drive.google.com/drive/folders/1-v-dgZtKch2yg0wYo3KupjW7MLcKM4Bl)*'
+        highlights:
+          - "Resolved team’s calculations into a CAD design using SOLIDWORKS, including building and assembling the parts."
+          - Conducted a motion study, created the exploded view and working drawings, and ensured the design's safety with finite element analysis.
+
+    skills:
+      - label: Programming
+        details: Python, C/C++,, Git, Bash Scripting, Supervised ML, Pandas, NumPy, URDF, XACRO, SQL
+      - label: Software Tools
+        details: ROS 1, ROS 2, Gazebo, CARLA, Nav2, Microsoft Planner, Microsoft Office, SolidWorks, MATLAB, Linux OS
+      - label: Embedded Tools
+        details: Jetson Xavier, Raspberry Pi, Arduino, Serial, CAN
+      - label: Concepts
+        details: Autonomous Navigation, Control Systems, Data Analysis, OOP, Data Structures, Sensor Fusion, SLAM, State Estimation
+      - label: Soft Skills
+        details: Leadership, Team Collaboration, Adaptability, Problem-Solving, Presentation, Communication, Attention to Details, Agile, Fast Learner
+      - label: Languages
+        details: English, Arabic
+
+    certifications:
+      - bullet: State Estimation and Localization for Self-Driving Cars - University of Toronto, Coursera
+      - bullet: Introduction to Self-Driving Cars - University of Toronto, Coursera
+      - bullet: Supervised Machine Learning - Stanford Online, Coursera
+      - bullet: Data Analysis Professional Nanodegree - FWD, Udacity
+      - bullet: Software Engineering Program - ALX
+      - bullet: Git and GitHub - Google, Coursera
+      - bullet: Machine Design - Georgia Institute of Technology, Coursera
+
+    extracurricular_activities:
+      - company: Ministry of Youth and Sports, Egypt
+        position: COP27 Organizer 
+        date:
+        start_date: 2022-09
+        end_date: 2022-11
+        location: Egypt
+        highlights:
+          - Volunteered as part of the youth team organizing the UN COP27 Climate Summit in Egypt.
+          - Supported event logistics and served as an on-ground organizer during the conference.
+      - company: Technical Center for Career Development (TCCD)
+        position: Graphic Designer 
+        date:
+        start_date: 2021-09
+        end_date: 2022-07
+        location: Cairo University, Egypt
+        highlights:
+          - Created tens of posters and designs using Photoshop and Illustrator to elevate social media advertising efforts.
+          - Coordinated 5 technical events such as Math Day and Job Fair events.
+
+    # numbered_entries:
+    #   - number: This is a numbered entry.
+    #   - number: This is another numbered entry.
+    #   - number: This is the third numbered entry.
+    # reversed_numbered_entries:
+    #   - reversed_number: This is a reversed numbered entry.
+    #   - reversed_number: This is another reversed numbered entry.
+    #   - reversed_number: This is the third reversed numbered entry.
+
+design:
+  theme: sb2nov
+  page:
+    size: a4
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1.3cm
+    right_margin: 1.3cm
+    show_page_numbering: true
+    show_last_updated_date: false
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: true
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: New Computer Modern
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: New Computer Modern
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: false
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: ◦
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        *DEGREE of AREA*
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column_first_row_template: |-
+        **COMPANY**
+        *POSITION*
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-08-19'
+  render_command:
+  bold_keywords: []

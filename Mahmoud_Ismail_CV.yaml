@@ -2,7 +2,7 @@ cv:
   name: Mahmoud Ismail
   location: Cairo, Egypt
   email: mahmoud.ismail.dev@gmail.com
-  phone: "+201554759293"
+  phone: +20-15-54759293
   website:
   social_networks:
     - network: LinkedIn
@@ -11,9 +11,10 @@ cv:
       username: github.com/m7moud-mostafa
   sections:
     Summary:
-      - I am an aspiring engineering undergrad with hands-on experience in ROS, navigation, SLAM, and control. I have successfully led the development of autonomous vehicle
-        systems from simulation to hardware integration. I am continuously seeking challenging opportunities within the autonomous robotics field where I can further
-        enhance my skills and contribute to innovative projects
+      - Fresh engineering graduate with hands-on experience in robotics and autonomous systems.
+        Achieved 3rd place globally in Shell Eco-marathon autonomous competition,
+        integrating mechanical with software to deliver real-world solutions.
+
     education:
       - institution: Cairo University
         area: Mechanical Design and Production Engineering
@@ -26,23 +27,29 @@ cv:
         highlights:
 
     experience:
+      - company: Indomie Egypt
+        position: Production Planning & Warehouse Intern
+        date:
+        start_date: 2025-07
+        end_date: 2025-08
+        location: Badr City, Cairo
+        highlights:
+        - Built **linear programming model** for **RM & FG flows**, saving ~30 min/day
+        - Automated warehouse Excel reports, saving ~2 hrs/day, improving **supply chain** visibility
+        - Used **Microsoft Dynamics ERP** for **dispatch, RM tracking**, and stock updates
+
       - company: Shell Eco Racing Team (CUERT)
         position: Director of Autonomous Teams
         date:
         start_date: 2025-01
         end_date: 2025-07
         location: Cairo University, Egypt
-        summary: A student-led racing team focused on the development of eco friendly racing vehicles.
+        # summary: A student-led racing team focused on the development of eco friendly racing vehicles.
         highlights:
-          - Led 35 engineering students across Development and Embedded teams, fostering teamwork and clear communication.
-          - Migrated CARLA system to a Docker-based setup, resolving Ubuntu dependencies issues and enabled seamless team transitions.
-          - Developed Bash/Python tools to automate integration and simplify development workflows.
-          - Drove completion of 3+ development projects managing testing and documentation, built ROS perception base for AI model deployment.
-          - Conducted energy consumption calculations for vehicle model supporting energy-efficient velocity profiling project.
-          - Repaired corrupted Jetson Xavier device, restoring hardware and software functionality to enable autonomous system deployment.
-          - Developed CAN communication system between the Xavier and STM32 microcontroller for autonomous vehicle control.
-          - Initiated vehicle modeling project overseeing MATLAB/SolidWorks models with URDF conversion for ROS integration.
-          - Achieved 3rd place globally in the Shell Eco-marathon Autonomous Programming Competition 2025.
+          - Directed 35+ engineers; built **ROS1 perception pipeline** and **CAN link** (Jetson–STM32).  
+          - Integrated **MATLAB/SolidWorks models** with URDF for ROS; enabled energy-efficient **velocity profiling**. 
+          - Deployed **CARLA-in-Docker** and automated workflows with **Python/Bash**, cutting integration time by 40%.  
+          - Achieved **3rd place globally** in Shell Eco-marathon Autonomous Programming Competition 2025.  
       - company: ""
         position: Leader of Autonomous Development Team
         date:
@@ -51,10 +58,8 @@ cv:
         location: 
         summary:
         highlights:
-          - Hired and led 23 engineers across multiple disciplines for a Level 3+ autonomous car competition.
-          - Mentored with sprint-based learning roadmaps and reviews, cutting onboarding time 80% versus prior season.
-          - "Initiated three cross-functional projects: system optimization, energy-cost velocity profiling, and embedded team integration."
-          - Shifted from waterfall to agile methodology, accomplishing more with fewer resources across multiple projects.
+          - Recruited/mentored 23 engineers; shifted to **Agile**, reducing onboarding by 80%.  
+          - "Launched 3 projects: **system optimization, velocity-energy profiling, embedded integration**."
       - company: ""
         position: Member of Autonomous Development Control Team
         date:
@@ -63,9 +68,9 @@ cv:
         location: 
         summary:
         highlights:
-          - Established the software base structure to allow building and assessing control algorithms using ROS 1 packages.
-          - Implemented a PID controller for longitudinal movements and the Stanley algorithm for lateral movements, boosting energy efficiency by 300%.
-          - Utilized the engine performance map to automate the calculation of driving parameters for efficient driving cycles.
+          - Built ROS1 base for testing autonomous vehicle control algorithms.
+          - Applied **engine performance map** to automate driving parameter calculations for efficient cycles.  
+          - Implemented **PID (longitudinal)** & **Stanley (lateral)** controllers, boosting efficiency by 300%.  
 
       - company: SLB Company (Schlumberger)
         position: Production Systems Intern
@@ -75,10 +80,10 @@ cv:
         location: 6th of October, Egypt
         summary: Leading global provider of technology for reservoir characterization, drilling, production, and processing
         highlights:
-          - Coordinated with cross cultural teams to learn about casing strings and hydraulic liner hangers, ensuring wellbore integrity.
-          - Developed knowledge of TRSCSSVs, Bridge plugs and production packers for well completion.
-          - Conducted phase-to-phase and DC tests on ESP induction motors and centrifugal pumps, presenting results to senior engineers.
-          - Supported subsea casing head, spool & Christmas tree assembly to optimize hydrocarbon flow.
+          - Worked with **cross-cultural teams** on casing strings & hydraulic liner hangers, for wellbore integrity.  
+          - Gained hands-on knowledge of TRSCSSVs, bridge plugs, packers and subsea devices.
+          - Conducted electrical testing on **ESP motors & pumps**, **presented** results to managers.  
+ 
 
       - company: Egyptian Atomic Energy Authority
         position: Mechanical Engineering Intern
@@ -86,11 +91,10 @@ cv:
         start_date: 2023-04
         end_date: 2023-05
         location: Nasr City, Egypt
-        summary: National authority responsible for the development of nuclear energy applications
+        # summary: National authority responsible for the development of nuclear energy applications
         highlights:
-          - Studied four nuclear reactor types, their core components, design consideration, cooling loops and heat-transfer systems.
-          - Collaborated in hands-on training and expert discussions to refine technical communication.
-          - Presented the four nuclear reactor types, highlighting operational principles, benefits and trade-offs.
+          - Researched nuclear reactor designs and heat-transfer systems.  
+          - Presented comparative analysis of reactor trade-offs to senior engineers.
 
     projects:
       - name: Autonomous Tow Tractor - Graduation Project
@@ -99,13 +103,11 @@ cv:
         end_date: 2025-07
         location:
         summary: '*[https://github.com/GP-Autonomous-Tow-Tractor/tow_tractor_ws](https://github.com/GP-Autonomous-Tow-Tractor/tow_tractor_ws)*
-                  \n\n*A graduation project focused on designing an autonomous tow tractor*'
+                  \n\nDesigned an autonomous tow tractor using ROS2 & real hardware for **material handling**.'
         highlights:
-          - Designed ROS2-based autonomous tow tractor system, integrating simulation (Gazebo), real-time hardware control, and navigation.
-          - Developed custom URDF/Xacro robot models implementing rear-wheel steering and differential drive control algorithms.
-          - Built a ROS2 package for sensor data intake and actuator commands using my hardware Python library's serial drivers.
-          - Integrated navigation/mapping with Nav2 & SLAM Toolbox for autonomous operation.
-          - Integrated MPU6050 IMU, RaspberryPi camera, wheel encoders, and LiDAR with a Kalman filter for accurate odometry data.
+          - Built **ROS2 system** integrating **Gazebo sim, Nav2, SLAM Toolbox** for navigation & mapping.  
+          - Modeled tractor with **URDF/Xacro**, implementing rear-wheel steering & differential drive.  
+          - Developed **sensor drivers** (IMU, LiDAR, encoders, camera) with Kalman filter for odometry.
 
       - name: Autonomous Vehicle Traffic-Aware Control System - Shell Eco Racing Team
         date: 2025-05
@@ -113,75 +115,75 @@ cv:
         end_date:
         location:
         summary: '*[https://www.youtube.com/watch?v=0uErVfB_nWY](https://www.youtube.com/watch?v=0uErVfB_nWY)*
-                  \n\n*A project focusing on traffic-aware control systems for autonomous vehicles*'
+                  \n\nTraffic-aware path planning & control for autonomous vehicles.'
         highlights:
-          - Designed advanced traffic handling logic for an autonomous vehicle in ROS, integrating real-time path planning and collision avoidance.
-          - Enhanced control module with traffic-aware longitudinal and lateral controllers for dynamic autonomous response.
+          - Designed **traffic logic** in ROS with real-time path planning & collision avoidance.  
+          - Enhanced control with **longitudinal/lateral controllers** for dynamic responses.  
+
 
       - name: Hardware Python Library - Graduation Project, Shell Eco Racing Team
         date: 2025-04
         start_date:
         end_date:
         location:
-        summary: '*[https://github.com/m7moud-mostafa/hardware](https://github.com/m7moud-mostafa/hardware)*'
+        summary: '*[https://github.com/m7moud-mostafa/hardware](https://github.com/m7moud-mostafa/hardware)*\n\n
+                Python library for modular sensor & actuator integration on embedded robotics platforms.'
         highlights:
-          - Designed an OOP Python library with Serial, SPI & CAN drivers using inheritance and mixins for modular, reusable code.
-          - Developed robust low-level drivers (buffer management, message framing, error handling) and high-level abstractions for sensors (IMU, encoders) and for sending actuators commands.
-          - Designed extensible, testable interfaces for adding new hardware drivers, with centralized logging, connection management, and automated message handling for reliable robotics integration.
+          - Designed an **OOP Python library** with Serial, SPI & CAN drivers for **Raspberry Pi, Jetson Xavier**
+          - Implemented low-level **buffering, framing, error handling** and high-level sensor/actuator APIs.  
+          - Provided extensible interfaces with **logging, connection mgmt, auto message handling**. 
 
       - name: Bash Shell Interpreter - ALX
         date: 2024-03
         start_date:
         end_date:
         location:
-        summary: '*[https://github.com/m7moud-mostafa/simple_shell](https://github.com/m7moud-mostafa/simple_shell)*'
+        summary: '*[https://github.com/m7moud-mostafa/simple_shell](https://github.com/m7moud-mostafa/simple_shell)*\n\n
+                  UNIX command line interpreter project in C.'
         highlights:
-          - Developed a practical UNIX command line interpreter using C programming to mimic basic shell functions.
-          - Integrated system calls for managing processes, configuring environmental variables , executing programs in a shell setting.
-          - Implemented essential built-in functions, achieved argument parsing, and allowed the execution of PATH commands in Interactive or Non-interactive mode, which achieved 120% score for this project.
+          - Developed a practical **UNIX shell** supporting **interactive & non-interactive modes**.  
+          - Integrated system calls to manage processes, environment variables, and program execution.  
+          - Implemented built-in functions with argument parsing and PATH command execution, achieving 120% project score.
 
       - name: Autonomous Vehicle Control ROS Package - Shell Eco Racing Team
         date: 2024-02
         start_date:
         end_date:
         location:
-        summary:
+        summary: Control system for Shell Eco-racing vehicle.
         highlights:
-          - Developed a PID controller and Stanley algorithm within the ROS Control package, optimizing the energy efficiency for autonomous driving.
-          - Utilized Linux, Python, and the CARLA Simulator to develop and test the control system.
-          - Optimized the energy efficiency of the control system, which increased the efficiency 3 times the previous system.
+          - Developed **PID + Stanley controllers** in ROS, boosting energy efficiency **3×**.  
+          - Tested system in **CARLA Simulator** with Python/Linux integration.  
 
       - name: Energy Performance Evaluation ROS Package - Shell Eco Racing Team
         date: 2024-01
         start_date:
         end_date:
         location:
-        summary:
+        summary: ROS package for vehicle energy metrics.
         highlights:
-          - Developed a comprehensive ROS package to assess energy efficiency and distance metrics of autonomous vehicles, utilizing Python and interfacing with the CARLA simulator.
-          - Proposed data collection for further Matlab analysis, real-time monitoring, and visualization for the car performance.
+          - Built ROS package for **efficiency & distance analysis** using Python + CARLA.  
+          - Enabled **real-time monitoring, data logging, Matlab analysis** for performance evaluation.  
 
-      - name: Energy Performance Evaluation ROS Package - Shell Eco Racing Team
+      - name: Designing Mechanical Press Machine - Mechanical Design Project
         date: 2023-04
         start_date:
         end_date:
         location:
         summary: '*[https://drive.google.com/drive/folders/1-v-dgZtKch2yg0wYo3KupjW7MLcKM4Bl](https://drive.google.com/drive/folders/1-v-dgZtKch2yg0wYo3KupjW7MLcKM4Bl)*'
         highlights:
-          - "Resolved team’s calculations into a CAD design using SOLIDWORKS, including building and assembling the parts."
-          - Conducted a motion study, created the exploded view and working drawings, and ensured the design's safety with finite element analysis.
+          - Designed **CAD assembly** in SolidWorks; performed **motion study & FEA safety checks**.  
+          - Produced exploded views & working drawings for manufacturing.  
 
     skills:
       - label: Programming
-        details: Python, C/C++,, Git, Bash Scripting, Supervised ML, Pandas, NumPy, URDF, XACRO, SQL
-      - label: Software Tools
-        details: ROS 1, ROS 2, Gazebo, CARLA, Nav2, Microsoft Planner, Microsoft Office, SolidWorks, MATLAB, Linux OS
-      - label: Embedded Tools
-        details: Jetson Xavier, Raspberry Pi, Arduino, Serial, CAN
+        details: Python, C/C++, Git, Bash Scripting, Supervised ML, Pandas, NumPy, URDF, XACRO, SQL
+      - label: Software/Hardware Tools
+        details: ROS 1, ROS 2, Gazebo, CARLA, Nav2, Microsoft Planner, Microsoft Office, SolidWorks, MATLAB, Linux OS, Jetson Xavier, Raspberry Pi, Arduino, Serial, CAN
       - label: Concepts
         details: Autonomous Navigation, Control Systems, Data Analysis, OOP, Data Structures, Sensor Fusion, SLAM, State Estimation
       - label: Soft Skills
-        details: Leadership, Team Collaboration, Adaptability, Problem-Solving, Presentation, Communication, Attention to Details, Agile, Fast Learner
+        details: Leadership, Team Collaboration, Adaptability, Problem-Solving, Presentation, Communication, Attention to Detail, Agile, Fast Learner
       - label: Languages
         details: English, Arabic
 
@@ -229,9 +231,9 @@ design:
     size: a4
     top_margin: 1cm
     bottom_margin: 1cm
-    left_margin: 1.3cm
-    right_margin: 1.3cm
-    show_page_numbering: true
+    left_margin: 1.1cm
+    right_margin: 1.1cm
+    show_page_numbering: false
     show_last_updated_date: false
   colors:
     text: rgb(0, 0, 0)
@@ -247,15 +249,15 @@ design:
     alignment: justified
     date_and_location_column_alignment: right
   links:
-    underline: true
+    underline: false
     use_external_link_icon: true
   header:
     name_font_family: New Computer Modern
     name_font_size: 30pt
     name_bold: true
     photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
+    vertical_space_between_name_and_connections: 0.4cm
+    vertical_space_between_connections_and_first_section: 0.4cm
     horizontal_space_between_connections: 0.5cm
     connections_font_family: New Computer Modern
     separator_between_connections: ''
@@ -269,7 +271,7 @@ design:
     small_caps: false
     line_thickness: 0.5pt
     vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
+    vertical_space_below: 0.2cm
     line_type: with-full-line
   entries:
     date_and_location_width: 4.15cm
@@ -282,9 +284,9 @@ design:
     show_time_spans_in: []
   highlights:
     bullet: ◦
-    top_margin: 0.25cm
+    top_margin: 0.2cm
     left_margin: 0.4cm
-    vertical_space_between_highlights: 0.25cm
+    vertical_space_between_highlights: 0.15cm
     horizontal_space_between_bullet_and_highlight: 0.5em
     summary_left_margin: 0cm
   entry_types:
@@ -350,10 +352,10 @@ locale:
     - Mar
     - Apr
     - May
-    - June
-    - July
+    - Jun
+    - Jul
     - Aug
-    - Sept
+    - Sep
     - Oct
     - Nov
     - Dec
@@ -371,6 +373,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-08-19'
+  date: '2025-08-20'
   render_command:
   bold_keywords: []

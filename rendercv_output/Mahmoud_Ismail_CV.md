@@ -9,7 +9,7 @@
 
 # Summary
 
-I am an aspiring engineering undergrad with hands-on experience in ROS, navigation, SLAM, and control. I have successfully led the development of autonomous vehicle systems from simulation to hardware integration. I am continuously seeking challenging opportunities within the autonomous robotics field where I can further enhance my skills and contribute to innovative projects
+Fresh engineering graduate with hands-on experience in robotics and autonomous systems. Achieved 3rd place globally in Shell Eco-marathon autonomous competition, integrating mechanical with software to deliver real-world solutions.
 
 # Education
 
@@ -20,109 +20,104 @@ I am an aspiring engineering undergrad with hands-on experience in ROS, navigati
 
 # Experience
 
+## Indomie Egypt, Production Planning & Warehouse Intern
+
+- Jul 2025 – Aug 2025
+- Badr City, Cairo
+- Built **linear programming model** for **RM & FG flows**, saving ~30 min/day
+- Automated warehouse Excel reports, saving ~2 hrs/day, improving **supply chain** visibility
+- Used **Microsoft Dynamics ERP** for **dispatch, RM tracking**, and stock updates
+
 ## Shell Eco Racing Team (CUERT), Director of Autonomous Teams
 
-- Jan 2025 – July 2025
+- Jan 2025 – Jul 2025
 - Cairo University, Egypt
-- Led 35 engineering students across Development and Embedded teams, fostering teamwork and clear communication.
-- Migrated CARLA system to a Docker-based setup, resolving Ubuntu dependencies issues and enabled seamless team transitions.
-- Developed Bash/Python tools to automate integration and simplify development workflows.
-- Drove completion of 3+ development projects managing testing and documentation, built ROS perception base for AI model deployment.
-- Conducted energy consumption calculations for vehicle model supporting energy-efficient velocity profiling project.
-- Repaired corrupted Jetson Xavier device, restoring hardware and software functionality to enable autonomous system deployment.
-- Developed CAN communication system between the Xavier and STM32 microcontroller for autonomous vehicle control.
-- Initiated vehicle modeling project overseeing MATLAB/SolidWorks models with URDF conversion for ROS integration.
-- Achieved 3rd place globally in the Shell Eco-marathon Autonomous Programming Competition 2025.
+- Directed 35+ engineers; built **ROS1 perception pipeline** and **CAN link** (Jetson–STM32).
+- Integrated **MATLAB/SolidWorks models** with URDF for ROS; enabled energy-efficient **velocity profiling**.
+- Deployed **CARLA-in-Docker** and automated workflows with **Python/Bash**, cutting integration time by 40%.
+- Achieved **3rd place globally** in Shell Eco-marathon Autonomous Programming Competition 2025.
 
 ## , Leader of Autonomous Development Team
 
-- July 2024 – Jan 2025
-- Hired and led 23 engineers across multiple disciplines for a Level 3+ autonomous car competition.
-- Mentored with sprint-based learning roadmaps and reviews, cutting onboarding time 80% versus prior season.
-- Initiated three cross-functional projects: system optimization, energy-cost velocity profiling, and embedded team integration.
-- Shifted from waterfall to agile methodology, accomplishing more with fewer resources across multiple projects.
+- Jul 2024 – Jan 2025
+- Recruited/mentored 23 engineers; shifted to **Agile**, reducing onboarding by 80%.
+- Launched 3 projects: **system optimization, velocity-energy profiling, embedded integration**.
 
 ## , Member of Autonomous Development Control Team
 
-- Sept 2022 – July 2024
-- Established the software base structure to allow building and assessing control algorithms using ROS 1 packages.
-- Implemented a PID controller for longitudinal movements and the Stanley algorithm for lateral movements, boosting energy efficiency by 300%.
-- Utilized the engine performance map to automate the calculation of driving parameters for efficient driving cycles.
+- Sep 2022 – Jul 2024
+- Built ROS1 base for testing autonomous vehicle control algorithms.
+- Applied **engine performance map** to automate driving parameter calculations for efficient cycles.
+- Implemented **PID (longitudinal)** & **Stanley (lateral)** controllers, boosting efficiency by 300%.
 
 ## SLB Company (Schlumberger), Production Systems Intern
 
-- July 2024 – Aug 2024
+- Jul 2024 – Aug 2024
 - 6th of October, Egypt
-- Coordinated with cross cultural teams to learn about casing strings and hydraulic liner hangers, ensuring wellbore integrity.
-- Developed knowledge of TRSCSSVs, Bridge plugs and production packers for well completion.
-- Conducted phase-to-phase and DC tests on ESP induction motors and centrifugal pumps, presenting results to senior engineers.
-- Supported subsea casing head, spool & Christmas tree assembly to optimize hydrocarbon flow.
+- Worked with **cross-cultural teams** on casing strings & hydraulic liner hangers, for wellbore integrity.
+- Gained hands-on knowledge of TRSCSSVs, bridge plugs, packers and subsea devices.
+- Conducted electrical testing on **ESP motors & pumps**, **presented** results to managers.
 
 ## Egyptian Atomic Energy Authority, Mechanical Engineering Intern
 
 - Apr 2023 – May 2023
 - Nasr City, Egypt
-- Studied four nuclear reactor types, their core components, design consideration, cooling loops and heat-transfer systems.
-- Collaborated in hands-on training and expert discussions to refine technical communication.
-- Presented the four nuclear reactor types, highlighting operational principles, benefits and trade-offs.
+- Researched nuclear reactor designs and heat-transfer systems.
+- Presented comparative analysis of reactor trade-offs to senior engineers.
 
 # Projects
 
 ## Autonomous Tow Tractor - Graduation Project
 
-- Nov 2024 – July 2025
-- Designed ROS2-based autonomous tow tractor system, integrating simulation (Gazebo), real-time hardware control, and navigation.
-- Developed custom URDF/Xacro robot models implementing rear-wheel steering and differential drive control algorithms.
-- Built a ROS2 package for sensor data intake and actuator commands using my hardware Python library's serial drivers.
-- Integrated navigation/mapping with Nav2 & SLAM Toolbox for autonomous operation.
-- Integrated MPU6050 IMU, RaspberryPi camera, wheel encoders, and LiDAR with a Kalman filter for accurate odometry data.
+- Nov 2024 – Jul 2025
+- Built **ROS2 system** integrating **Gazebo sim, Nav2, SLAM Toolbox** for navigation & mapping.
+- Modeled tractor with **URDF/Xacro**, implementing rear-wheel steering & differential drive.
+- Developed **sensor drivers** (IMU, LiDAR, encoders, camera) with Kalman filter for odometry.
 
 ## Autonomous Vehicle Traffic-Aware Control System - Shell Eco Racing Team
 
 - May 2025
-- Designed advanced traffic handling logic for an autonomous vehicle in ROS, integrating real-time path planning and collision avoidance.
-- Enhanced control module with traffic-aware longitudinal and lateral controllers for dynamic autonomous response.
+- Designed **traffic logic** in ROS with real-time path planning & collision avoidance.
+- Enhanced control with **longitudinal/lateral controllers** for dynamic responses.
 
 ## Hardware Python Library - Graduation Project, Shell Eco Racing Team
 
 - Apr 2025
-- Designed an OOP Python library with Serial, SPI & CAN drivers using inheritance and mixins for modular, reusable code.
-- Developed robust low-level drivers (buffer management, message framing, error handling) and high-level abstractions for sensors (IMU, encoders) and for sending actuators commands.
-- Designed extensible, testable interfaces for adding new hardware drivers, with centralized logging, connection management, and automated message handling for reliable robotics integration.
+- Designed an **OOP Python library** with Serial, SPI & CAN drivers for **Raspberry Pi, Jetson Xavier**
+- Implemented low-level **buffering, framing, error handling** and high-level sensor/actuator APIs.
+- Provided extensible interfaces with **logging, connection mgmt, auto message handling**.
 
 ## Bash Shell Interpreter - ALX
 
 - Mar 2024
-- Developed a practical UNIX command line interpreter using C programming to mimic basic shell functions.
-- Integrated system calls for managing processes, configuring environmental variables , executing programs in a shell setting.
-- Implemented essential built-in functions, achieved argument parsing, and allowed the execution of PATH commands in Interactive or Non-interactive mode, which achieved 120% score for this project.
+- Developed a practical **UNIX shell** supporting **interactive & non-interactive modes**.
+- Integrated system calls to manage processes, environment variables, and program execution.
+- Implemented built-in functions with argument parsing and PATH command execution, achieving 120% project score.
 
 ## Autonomous Vehicle Control ROS Package - Shell Eco Racing Team
 
 - Feb 2024
-- Developed a PID controller and Stanley algorithm within the ROS Control package, optimizing the energy efficiency for autonomous driving.
-- Utilized Linux, Python, and the CARLA Simulator to develop and test the control system.
-- Optimized the energy efficiency of the control system, which increased the efficiency 3 times the previous system.
+- Developed **PID + Stanley controllers** in ROS, boosting energy efficiency **3×**.
+- Tested system in **CARLA Simulator** with Python/Linux integration.
 
 ## Energy Performance Evaluation ROS Package - Shell Eco Racing Team
 
 - Jan 2024
-- Developed a comprehensive ROS package to assess energy efficiency and distance metrics of autonomous vehicles, utilizing Python and interfacing with the CARLA simulator.
-- Proposed data collection for further Matlab analysis, real-time monitoring, and visualization for the car performance.
+- Built ROS package for **efficiency & distance analysis** using Python + CARLA.
+- Enabled **real-time monitoring, data logging, Matlab analysis** for performance evaluation.
 
-## Energy Performance Evaluation ROS Package - Shell Eco Racing Team
+## Designing Mechanical Press Machine - Mechanical Design Project
 
 - Apr 2023
-- Resolved team’s calculations into a CAD design using SOLIDWORKS, including building and assembling the parts.
-- Conducted a motion study, created the exploded view and working drawings, and ensured the design's safety with finite element analysis.
+- Designed **CAD assembly** in SolidWorks; performed **motion study & FEA safety checks**.
+- Produced exploded views & working drawings for manufacturing.
 
 # Skills
 
-- Programming: Python, C/C++,, Git, Bash Scripting, Supervised ML, Pandas, NumPy, URDF, XACRO, SQL
-- Software Tools: ROS 1, ROS 2, Gazebo, CARLA, Nav2, Microsoft Planner, Microsoft Office, SolidWorks, MATLAB, Linux OS
-- Embedded Tools: Jetson Xavier, Raspberry Pi, Arduino, Serial, CAN
+- Programming: Python, C/C++, Git, Bash Scripting, Supervised ML, Pandas, NumPy, URDF, XACRO, SQL
+- Software/Hardware Tools: ROS 1, ROS 2, Gazebo, CARLA, Nav2, Microsoft Planner, Microsoft Office, SolidWorks, MATLAB, Linux OS, Jetson Xavier, Raspberry Pi, Arduino, Serial, CAN
 - Concepts: Autonomous Navigation, Control Systems, Data Analysis, OOP, Data Structures, Sensor Fusion, SLAM, State Estimation
-- Soft Skills: Leadership, Team Collaboration, Adaptability, Problem-Solving, Presentation, Communication, Attention to Details, Agile, Fast Learner
+- Soft Skills: Leadership, Team Collaboration, Adaptability, Problem-Solving, Presentation, Communication, Attention to Detail, Agile, Fast Learner
 - Languages: English, Arabic
 # Certifications
 
@@ -137,14 +132,14 @@ I am an aspiring engineering undergrad with hands-on experience in ROS, navigati
 
 ## Ministry of Youth and Sports, Egypt, COP27 Organizer
 
-- Sept 2022 – Nov 2022
+- Sep 2022 – Nov 2022
 - Egypt
 - Volunteered as part of the youth team organizing the UN COP27 Climate Summit in Egypt.
 - Supported event logistics and served as an on-ground organizer during the conference.
 
 ## Technical Center for Career Development (TCCD), Graphic Designer
 
-- Sept 2021 – July 2022
+- Sep 2021 – Jul 2022
 - Cairo University, Egypt
 - Created tens of posters and designs using Photoshop and Illustrator to elevate social media advertising efforts.
 - Coordinated 5 technical events such as Math Day and Job Fair events.

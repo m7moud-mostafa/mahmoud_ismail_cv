@@ -19,7 +19,7 @@
 #let design-section-titles-font-size = 1.4em
 #let design-section-titles-type = "with-parial-line"
 #let design-section-titles-vertical-space-above = 0.5cm
-#let design-section-titles-vertical-space-below = 0.3cm
+#let design-section-titles-vertical-space-below = 0.2cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = true
 #let design-text-font-size = 10pt
@@ -33,17 +33,17 @@
 #let design-header-name-font-size = 30pt
 #let design-header-name-bold = true
 #let design-header-connections-font-family = "New Computer Modern"
-#let design-header-vertical-space-between-name-and-connections = 0.7cm
-#let design-header-vertical-space-between-connections-and-first-section = 0.7cm
+#let design-header-vertical-space-between-name-and-connections = 0.4cm
+#let design-header-vertical-space-between-connections-and-first-section = 0.4cm
 #let design-header-use-icons-for-connections = true
 #let design-header-horizontal-space-between-connections = 0.5cm
 #let design-header-separator-between-connections = ""
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "◦"
-#let design-highlights-top-margin = 0.25cm
+#let design-highlights-top-margin = 0.2cm
 #let design-highlights-left-margin = 0.4cm
-#let design-highlights-vertical-space-between-highlights = 0.25cm
+#let design-highlights-vertical-space-between-highlights = 0.15cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.5em
 #let design-entries-vertical-space-between-entries = 1.2em
 #let design-entries-date-and-location-width = 4.15cm
@@ -52,11 +52,11 @@
 #let design-entries-left-and-right-margin = 0.2cm
 #let design-page-top-margin = 1cm
 #let design-page-bottom-margin = 1cm
-#let design-page-left-margin = 1.3cm
-#let design-page-right-margin = 1.3cm
+#let design-page-left-margin = 1.1cm
+#let design-page-right-margin = 1.1cm
 #let design-page-show-last-updated-date = false
-#let design-page-show-page-numbering = true
-#let design-links-underline = true
+#let design-page-show-page-numbering = false
+#let design-links-underline = false
 #let design-entry-types-education-entry-degree-column-width = 1cm
 #let date = datetime.today()
 
@@ -465,7 +465,7 @@
 
 
 #one-col-entry(
-  content: [I am an aspiring engineering undergrad with hands-on experience in ROS, navigation, SLAM, and control. I have successfully led the development of autonomous vehicle systems from simulation to hardware integration. I am continuously seeking challenging opportunities within the autonomous robotics field where I can further enhance my skills and contribute to innovative projects]
+  content: [Fresh engineering graduate with hands-on experience in robotics and autonomous systems. Achieved 3rd place globally in Shell Eco-marathon autonomous competition, integrating mechanical with software to deliver real-world solutions.]
 )
 
 
@@ -503,6 +503,25 @@
 
 #two-col-entry(
   left-content: [
+    #strong[Indomie Egypt]
+
+#emph[Production Planning & Warehouse Intern]
+  ],
+  right-content: [
+    #emph[Badr City, Cairo]
+
+#emph[Jul 2025 – Aug 2025]
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Built #strong[linear programming model] for #strong[RM & FG flows], saving \~30 min\/day],[Automated warehouse Excel reports, saving \~2 hrs\/day, improving #strong[supply chain] visibility],[Used #strong[Microsoft Dynamics ERP] for #strong[dispatch, RM tracking], and stock updates],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #strong[Shell Eco Racing Team \(CUERT\)]
 
 #emph[Director of Autonomous Teams]
@@ -510,14 +529,12 @@
   right-content: [
     #emph[Cairo University, Egypt]
 
-#emph[Jan 2025 – July 2025]
+#emph[Jan 2025 – Jul 2025]
   ],
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A student-led racing team focused on the development of eco friendly racing vehicles.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led 35 engineering students across Development and Embedded teams, fostering teamwork and clear communication.],[Migrated CARLA system to a Docker-based setup, resolving Ubuntu dependencies issues and enabled seamless team transitions.],[Developed Bash\/Python tools to automate integration and simplify development workflows.],[Drove completion of 3+ development projects managing testing and documentation, built ROS perception base for AI model deployment.],[Conducted energy consumption calculations for vehicle model supporting energy-efficient velocity profiling project.],[Repaired corrupted Jetson Xavier device, restoring hardware and software functionality to enable autonomous system deployment.],[Developed CAN communication system between the Xavier and STM32 microcontroller for autonomous vehicle control.],[Initiated vehicle modeling project overseeing MATLAB\/SolidWorks models with URDF conversion for ROS integration.],[Achieved 3rd place globally in the Shell Eco-marathon Autonomous Programming Competition 2025.],)
+    #v(design-highlights-top-margin);#highlights([Directed 35+ engineers; built #strong[ROS1 perception pipeline] and #strong[CAN link] \(Jetson–STM32\).],[Integrated #strong[MATLAB\/SolidWorks models] with URDF for ROS; enabled energy-efficient #strong[velocity profiling].],[Deployed #strong[CARLA-in-Docker] and automated workflows with #strong[Python\/Bash], cutting integration time by 40\%.],[Achieved #strong[3rd place globally] in Shell Eco-marathon Autonomous Programming Competition 2025.],)
   ],
 )
 
@@ -527,12 +544,12 @@
     #emph[Leader of Autonomous Development Team]
   ],
   right-content: [
-    #emph[July 2024 – Jan 2025]
+    #emph[Jul 2024 – Jan 2025]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Hired and led 23 engineers across multiple disciplines for a Level 3+ autonomous car competition.],[Mentored with sprint-based learning roadmaps and reviews, cutting onboarding time 80\% versus prior season.],[Initiated three cross-functional projects: system optimization, energy-cost velocity profiling, and embedded team integration.],[Shifted from waterfall to agile methodology, accomplishing more with fewer resources across multiple projects.],)
+    #v(design-highlights-top-margin);#highlights([Recruited\/mentored 23 engineers; shifted to #strong[Agile], reducing onboarding by 80\%.],[Launched 3 projects: #strong[system optimization, velocity-energy profiling, embedded integration].],)
   ],
 )
 
@@ -542,12 +559,12 @@
     #emph[Member of Autonomous Development Control Team]
   ],
   right-content: [
-    #emph[Sept 2022 – July 2024]
+    #emph[Sep 2022 – Jul 2024]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Established the software base structure to allow building and assessing control algorithms using ROS 1 packages.],[Implemented a PID controller for longitudinal movements and the Stanley algorithm for lateral movements, boosting energy efficiency by 300\%.],[Utilized the engine performance map to automate the calculation of driving parameters for efficient driving cycles.],)
+    #v(design-highlights-top-margin);#highlights([Built ROS1 base for testing autonomous vehicle control algorithms.],[Applied #strong[engine performance map] to automate driving parameter calculations for efficient cycles.],[Implemented #strong[PID \(longitudinal\)] & #strong[Stanley \(lateral\)] controllers, boosting efficiency by 300\%.],)
   ],
 )
 
@@ -561,14 +578,14 @@
   right-content: [
     #emph[6th of October, Egypt]
 
-#emph[July 2024 – Aug 2024]
+#emph[Jul 2024 – Aug 2024]
   ],
 )
 #one-col-entry(
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Leading global provider of technology for reservoir characterization, drilling, production, and processing])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Coordinated with cross cultural teams to learn about casing strings and hydraulic liner hangers, ensuring wellbore integrity.],[Developed knowledge of TRSCSSVs, Bridge plugs and production packers for well completion.],[Conducted phase-to-phase and DC tests on ESP induction motors and centrifugal pumps, presenting results to senior engineers.],[Supported subsea casing head, spool & Christmas tree assembly to optimize hydrocarbon flow.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Worked with #strong[cross-cultural teams] on casing strings & hydraulic liner hangers, for wellbore integrity.],[Gained hands-on knowledge of TRSCSSVs, bridge plugs, packers and subsea devices.],[Conducted electrical testing on #strong[ESP motors & pumps], #strong[presented] results to managers.],)
   ],
 )
 
@@ -587,9 +604,7 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [National authority responsible for the development of nuclear energy applications])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Studied four nuclear reactor types, their core components, design consideration, cooling loops and heat-transfer systems.],[Collaborated in hands-on training and expert discussions to refine technical communication.],[Presented the four nuclear reactor types, highlighting operational principles, benefits and trade-offs.],)
+    #v(design-highlights-top-margin);#highlights([Researched nuclear reactor designs and heat-transfer systems.],[Presented comparative analysis of reactor trade-offs to senior engineers.],)
   ],
 )
 
@@ -603,7 +618,7 @@
     #strong[Autonomous Tow Tractor - Graduation Project]
   ],
   right-content: [
-    #emph[Nov 2024 – July 2025]
+    #emph[Nov 2024 – Jul 2025]
   ],
 )
 #one-col-entry(
@@ -612,9 +627,9 @@
 
 #v(-design-text-leading)\
 
-#v(-design-text-leading)#emph[A graduation project focused on designing an autonomous tow tractor]])], column-gutter: 0cm)
+#v(-design-text-leading)Designed an autonomous tow tractor using ROS2 & real hardware for #strong[material handling].])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed ROS2-based autonomous tow tractor system, integrating simulation \(Gazebo\), real-time hardware control, and navigation.],[Developed custom URDF\/Xacro robot models implementing rear-wheel steering and differential drive control algorithms.],[Built a ROS2 package for sensor data intake and actuator commands using my hardware Python library's serial drivers.],[Integrated navigation\/mapping with Nav2 & SLAM Toolbox for autonomous operation.],[Integrated MPU6050 IMU, RaspberryPi camera, wheel encoders, and LiDAR with a Kalman filter for accurate odometry data.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built #strong[ROS2 system] integrating #strong[Gazebo sim, Nav2, SLAM Toolbox] for navigation & mapping.],[Modeled tractor with #strong[URDF\/Xacro], implementing rear-wheel steering & differential drive.],[Developed #strong[sensor drivers] \(IMU, LiDAR, encoders, camera\) with Kalman filter for odometry.],)
   ],
 )
 
@@ -633,9 +648,9 @@
 
 #v(-design-text-leading)\
 
-#v(-design-text-leading)#emph[A project focusing on traffic-aware control systems for autonomous vehicles]])], column-gutter: 0cm)
+#v(-design-text-leading)Traffic-aware path planning & control for autonomous vehicles.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed advanced traffic handling logic for an autonomous vehicle in ROS, integrating real-time path planning and collision avoidance.],[Enhanced control module with traffic-aware longitudinal and lateral controllers for dynamic autonomous response.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed #strong[traffic logic] in ROS with real-time path planning & collision avoidance.],[Enhanced control with #strong[longitudinal\/lateral controllers] for dynamic responses.],)
   ],
 )
 
@@ -650,9 +665,13 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://github.com/m7moud-mostafa/hardware")[#emph[https:\/\/github.com\/m7moud-mostafa\/hardware]]])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://github.com/m7moud-mostafa/hardware")[#emph[https:\/\/github.com\/m7moud-mostafa\/hardware]]\
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed an OOP Python library with Serial, SPI & CAN drivers using inheritance and mixins for modular, reusable code.],[Developed robust low-level drivers \(buffer management, message framing, error handling\) and high-level abstractions for sensors \(IMU, encoders\) and for sending actuators commands.],[Designed extensible, testable interfaces for adding new hardware drivers, with centralized logging, connection management, and automated message handling for reliable robotics integration.],)
+#v(-design-text-leading)\
+
+#v(-design-text-leading) Python library for modular sensor & actuator integration on embedded robotics platforms.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed an #strong[OOP Python library] with Serial, SPI & CAN drivers for #strong[Raspberry Pi, Jetson Xavier]],[Implemented low-level #strong[buffering, framing, error handling] and high-level sensor\/actuator APIs.],[Provided extensible interfaces with #strong[logging, connection mgmt, auto message handling].],)
   ],
 )
 
@@ -667,9 +686,13 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://github.com/m7moud-mostafa/simple_shell")[#emph[https:\/\/github.com\/m7moud-mostafa\/simple\_shell]]])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://github.com/m7moud-mostafa/simple_shell")[#emph[https:\/\/github.com\/m7moud-mostafa\/simple\_shell]]\
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a practical UNIX command line interpreter using C programming to mimic basic shell functions.],[Integrated system calls for managing processes, configuring environmental variables , executing programs in a shell setting.],[Implemented essential built-in functions, achieved argument parsing, and allowed the execution of PATH commands in Interactive or Non-interactive mode, which achieved 120\% score for this project.],)
+#v(-design-text-leading)\
+
+#v(-design-text-leading) UNIX command line interpreter project in C.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed a practical #strong[UNIX shell] supporting #strong[interactive & non-interactive modes].],[Integrated system calls to manage processes, environment variables, and program execution.],[Implemented built-in functions with argument parsing and PATH command execution, achieving 120\% project score.],)
   ],
 )
 
@@ -684,7 +707,9 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a PID controller and Stanley algorithm within the ROS Control package, optimizing the energy efficiency for autonomous driving.],[Utilized Linux, Python, and the CARLA Simulator to develop and test the control system.],[Optimized the energy efficiency of the control system, which increased the efficiency 3 times the previous system.],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Control system for Shell Eco-racing vehicle.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed #strong[PID + Stanley controllers] in ROS, boosting energy efficiency #strong[3×].],[Tested system in #strong[CARLA Simulator] with Python\/Linux integration.],)
   ],
 )
 
@@ -699,14 +724,16 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a comprehensive ROS package to assess energy efficiency and distance metrics of autonomous vehicles, utilizing Python and interfacing with the CARLA simulator.],[Proposed data collection for further Matlab analysis, real-time monitoring, and visualization for the car performance.],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [ROS package for vehicle energy metrics.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built ROS package for #strong[efficiency & distance analysis] using Python + CARLA.],[Enabled #strong[real-time monitoring, data logging, Matlab analysis] for performance evaluation.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Energy Performance Evaluation ROS Package - Shell Eco Racing Team]
+    #strong[Designing Mechanical Press Machine - Mechanical Design Project]
   ],
   right-content: [
     #emph[Apr 2023]
@@ -716,7 +743,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [#link("https://drive.google.com/drive/folders/1-v-dgZtKch2yg0wYo3KupjW7MLcKM4Bl")[#emph[https:\/\/drive.google.com\/drive\/folders\/1-v-dgZtKch2yg0wYo3KupjW7MLcKM4Bl]]])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Resolved team’s calculations into a CAD design using SOLIDWORKS, including building and assembling the parts.],[Conducted a motion study, created the exploded view and working drawings, and ensured the design's safety with finite element analysis.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed #strong[CAD assembly] in SolidWorks; performed #strong[motion study & FEA safety checks].],[Produced exploded views & working drawings for manufacturing.],)
   ],
 )
 
@@ -726,15 +753,11 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming:] Python, C\/C++,, Git, Bash Scripting, Supervised ML, Pandas, NumPy, URDF, XACRO, SQL]
+  content: [#strong[Programming:] Python, C\/C++, Git, Bash Scripting, Supervised ML, Pandas, NumPy, URDF, XACRO, SQL]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Software Tools:] ROS 1, ROS 2, Gazebo, CARLA, Nav2, Microsoft Planner, Microsoft Office, SolidWorks, MATLAB, Linux OS]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Embedded Tools:] Jetson Xavier, Raspberry Pi, Arduino, Serial, CAN]
+  content: [#strong[Software\/Hardware Tools:] ROS 1, ROS 2, Gazebo, CARLA, Nav2, Microsoft Planner, Microsoft Office, SolidWorks, MATLAB, Linux OS, Jetson Xavier, Raspberry Pi, Arduino, Serial, CAN]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -742,7 +765,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Soft Skills:] Leadership, Team Collaboration, Adaptability, Problem-Solving, Presentation, Communication, Attention to Details, Agile, Fast Learner]
+  content: [#strong[Soft Skills:] Leadership, Team Collaboration, Adaptability, Problem-Solving, Presentation, Communication, Attention to Detail, Agile, Fast Learner]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -794,7 +817,7 @@
   right-content: [
     #emph[Egypt]
 
-#emph[Sept 2022 – Nov 2022]
+#emph[Sep 2022 – Nov 2022]
   ],
 )
 #one-col-entry(
@@ -813,7 +836,7 @@
   right-content: [
     #emph[Cairo University, Egypt]
 
-#emph[Sept 2021 – July 2022]
+#emph[Sep 2021 – Jul 2022]
   ],
 )
 #one-col-entry(

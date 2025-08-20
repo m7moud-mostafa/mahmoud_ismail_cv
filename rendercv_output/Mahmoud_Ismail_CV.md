@@ -3,8 +3,8 @@
 - Phone: +20 15 54759293
 - Email: [mahmoud.ismail.dev@gmail.com](mailto:mahmoud.ismail.dev@gmail.com)
 - Location: Cairo, Egypt
-- LinkedIn: [linkedin.com/in/ma7moud-mostafa](https://linkedin.com/in/linkedin.com/in/ma7moud-mostafa)
-- GitHub: [github.com/m7moud-mostafa](https://github.com/github.com/m7moud-mostafa)
+- LinkedIn: [ma7moud-mostafa](https://linkedin.com/in/ma7moud-mostafa)
+- GitHub: [m7moud-mostafa](https://github.com/m7moud-mostafa)
 
 
 # Summary

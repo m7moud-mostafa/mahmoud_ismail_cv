@@ -454,8 +454,8 @@
   [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Cairo, Egypt],
   [#box(original-link("mailto:mahmoud.ismail.dev@gmail.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)mahmoud.ismail.dev\@gmail.com])],
   [#box(original-link("tel:+20-15-54759293")[#fa-icon("phone", size: 0.9em) #h(0.05cm)015 54759293])],
-  [#box(original-link("https://linkedin.com/in/linkedin.com/in/ma7moud-mostafa")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)linkedin.com\/in\/ma7moud-mostafa])],
-  [#box(original-link("https://github.com/github.com/m7moud-mostafa")[#fa-icon("github", size: 0.9em) #h(0.05cm)github.com\/m7moud-mostafa])],
+  [#box(original-link("https://linkedin.com/in/ma7moud-mostafa")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)ma7moud-mostafa])],
+  [#box(original-link("https://github.com/m7moud-mostafa")[#fa-icon("github", size: 0.9em) #h(0.05cm)m7moud-mostafa])],
 )
 #connections(connections-list)
 
